@@ -2,9 +2,9 @@
 
 ## Indice de plataformas
 
-* [DockerLabs](#dockerlabs)
+* [OverTheWire:Bandit](#bandit)
+* [DockerLabs](#-dockerlabs-)
 * [HackTheBox](#hackthebox)
-* [TryHackMe](#tryhackme)
 * [OverTheWire:Natas](#overthewire-natas)
 * [PortSwiggerSQLI](#portswigger-sqli)
 
@@ -14,18 +14,22 @@
 | :--- | :--- | :--- | :--- |
 | **Level 0** | ![Dificultad](https://img.shields.io/badge/_Muy_facil-green?style=flat-square) | Conexion ssh. | [Ver Solución Aquí](Bandit/level0.md) |
 | **Level 1** | ![Dificultad](https://img.shields.io/badge/_Muy_facil-green?style=flat-square) | Uso de comandos como ls y cat con ruta relativa. | [Ver Solución Aquí](Bandit/level1.md) |
-| **Level 1** | ![Dificultad](https://img.shields.io/badge/_Editar-green?style=flat-square) | -- | [Ver Solución Aquí](Bandit/level1.md) |
-| **Level 1** | ![Dificultad](https://img.shields.io/badge/_Editar-green?style=flat-square) | -- | [Ver Solución Aquí](Bandit/level1.md) |
-| **Level 1** | ![Dificultad](https://img.shields.io/badge/_Editar-green?style=flat-square) | -- | [Ver Solución Aquí](Bandit/level1.md) |
-| **Level 1** | ![Dificultad](https://img.shields.io/badge/_Editar-green?style=flat-square) | -- | [Ver Solución Aquí](Bandit/level1.md) |
-| **Level 1** | ![Dificultad](https://img.shields.io/badge/_Editar-green?style=flat-square) | -- | [Ver Solución Aquí](Bandit/level1.md) |
-| **Level 1** | ![Dificultad](https://img.shields.io/badge/_Editar-green?style=flat-square) | -- | [Ver Solución Aquí](Bandit/level1.md) |
-| **Level 1** | ![Dificultad](https://img.shields.io/badge/_Editar-green?style=flat-square) | -- | [Ver Solución Aquí](Bandit/level1.md) |
-| **Level 1** | ![Dificultad](https://img.shields.io/badge/_Editar-green?style=flat-square) | -- | [Ver Solución Aquí](Bandit/level1.md) |
-| **Level 1** | ![Dificultad](https://img.shields.io/badge/_Editar-green?style=flat-square) | -- | [Ver Solución Aquí](Bandit/level1.md) |
-| **Level 1** | ![Dificultad](https://img.shields.io/badge/_Editar-green?style=flat-square) | -- | [Ver Solución Aquí](Bandit/level1.md) |
-| **Level 1** | ![Dificultad](https://img.shields.io/badge/_Editar-green?style=flat-square) | -- | [Ver Solución Aquí](Bandit/level1.md) |
-| **Level 1** | ![Dificultad](https://img.shields.io/badge/_Editar-green?style=flat-square) | -- | [Ver Solución Aquí](Bandit/level1.md) |
+| **Level 2** | ![Dificultad](https://img.shields.io/badge/_Muy_facil-green?style=flat-square) | Ruta relativa, Nombre con espacios | [Ver Solución Aquí](Bandit/level2.md) |
+| **Level 3** | ![Dificultad](https://img.shields.io/badge/_Muy_facil-green?style=flat-square) | Archivos ocultos | [Ver Solución Aquí](Bandit/level3.md) |
+| **Level 4** | ![Dificultad](https://img.shields.io/badge/Facil-blue?style=flat-square) | Comando file | [Ver Solución Aquí](Bandit/level4.md) |
+| **Level 5** | ![Dificultad](https://img.shields.io/badge/Facil-blue?style=flat-square) | Busqueda de archivos con find | [Ver Solución Aquí](Bandit/level5.md) |
+| **Level 6** | ![Dificultad](https://img.shields.io/badge/Facil-blue?style=flat-square) | Busqueda de archivos y uso del 2>/dev/null | [Ver Solución Aquí](Bandit/level6.md) |
+| **Level 7** | ![Dificultad](https://img.shields.io/badge/Facil-blue?style=flat-square) | Uso del comando grep para analizar lineas | [Ver Solución Aquí](Bandit/level7.md) |
+| **Level 8** | ![Dificultad](https://img.shields.io/badge/_Editar-green?style=flat-square) | Uso del comando uniq y sort para el manejo de texto | [Ver Solución Aquí](Bandit/level8.md) |
+| **Level 9** | ![Dificultad](https://img.shields.io/badge/Facil-blue?style=flat-square) | Uso del comando string para analizar texto no legible | [Ver Solución Aquí](Bandit/level9.md) |
+| **Level 10** | ![Dificultad](https://img.shields.io/badge/Facil-blue?style=flat-square) | Decodificar base64 | [Ver Solución Aquí](Bandit/level10.md) |
+| **Level 11** | ![Dificultad](https://img.shields.io/badge/_Medio-yellow?style=flat-square) | Comando tr para intercambiar letras | [Ver Solución Aquí](Bandit/level11.md) |
+| **Level 12** | ![Dificultad](https://img.shields.io/badge/_Medio-yellow?style=flat-square) | Analisis, cambio de nombre y extraccion de archivos | [Ver Solución Aquí](Bandit/level12.md) |
+| **Level 13** | ![Dificultad](https://img.shields.io/badge/_Muy_facil-green?style=flat-square) | Conexion con sshkey | [Ver Solución Aquí](Bandit/level13.md) |
+| **Level 14** | ![Dificultad](https://img.shields.io/badge/Facil-blue?style=flat-square) | Uso de netcat | [Ver Solución Aquí](Bandit/level14.md) |
+| **Level 15** | ![Dificultad](https://img.shields.io/badge/Facil-blue?style=flat-square) | Uso de s_client | [Ver Solución Aquí](Bandit/level15.md) |
+| **Level 16** | ![Dificultad](https://img.shields.io/badge/_Medio-yellow?style=flat-square) | Analisis de puertos, juntos con analisis de certificados ssl | [Ver Solución Aquí](Bandit/level16.md) |
+| **Level 17** | ![Dificultad](https://img.shields.io/badge/_Muy_facil-green?style=flat-square) | Analisis de diferencias entre dos archivos | [Ver Solución Aquí](Bandit/level17.md) |
 
 ## 🐋 DockerLabs 🐋
 
@@ -44,8 +48,6 @@
 | :--- | :--- | :--- | :--- |
 | **Meow** | ![Dificultad](https://img.shields.io/badge/_Facil-blue?style=flat-square) | Enumeración de servicios, fuerza bruta en servicio telnet. | [Ver Informe](HackTheBox/informe_Meow.pdf) |
 | **Fawn** | ![Dificultad](https://img.shields.io/badge/_Facil-blue?style=flat-square) | Enumeración de servicios, vulnerabilidad en servicio ftp. | [Ver Informe](HackTheBox/informe_Fawn_HTB_.pdf) |
-
-## TryHackMe
 
 ## OverTheWire: Natas
 
